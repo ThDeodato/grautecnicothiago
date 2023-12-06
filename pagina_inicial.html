@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Loja Online</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            background-color: #555;
+            padding: 10px;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        article {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 15px;
+            width: 30%;
+            text-align: center;
+        }
+
+        article img {
+            width: 50%; /* A imagem ocupará 100% da largura do espaço disponível */
+            max-height: 200px; /* Altura máxima da imagem */
+            object-fit: cover; /* Garante que a imagem cubra completamente o espaço, mantendo a proporção */
+            margin-bottom: 5%; /* Adiciona um espaço entre a imagem e o conteúdo do artigo */
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        input[type="text"] {
+            padding: 8px;
+            margin-top: 8px;
+            margin-right: 8px;
+        }
+
+        button {
+            padding: 8px;
+            margin-top: 8px;
+        }
+
+        #logo {
+            width: 45%;
+            max-width: 400px;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img id="logo" src="https://i.gifer.com/TWGG.gif" alt="Logo da Minha Loja Online">
+        <h1>Minha Loja Online</h1>
+    </header>
+    
+    <nav>
+        <div>
+            <a href="#">Home</a>
+            <a href="#">Produtos</a>
+            <a href="#">Contato</a>
+            <a href="#">Carrinho</a>
+        </div>
+        <div>
+            <input type="text" placeholder="Buscar produtos...">
+            <button type="button">Buscar</button>
+        </div>
+    </nav>
+
+    <section>
+        <article>
+            <img src="https://img.ws.mms.shopee.com.br/309f15736d0ba0f3098b288131d1e1ba" alt="Tênis Oakley Modoc Low II Masculino - Off White">
+            <h2>Tênis Oakley Modoc Low II Masculino - Off White</h2>
+            <p>Tamanhos do do 36 ao 44</p>
+            <p>R$ 629,99</p>
+            <button>Adicionar ao Carrinho</button>
+        </article>
+
+        <article>
+            <img src="https://a-static.mlcdn.com.br/450x450/camisa-adidas-cruzeiro-i-2021/futfanaticsoficial/90062-1544115/2d633dd805fba20eafcea60344a5aa09.jpeg" alt="Camisa Cruzeiro I 21/22 Torcedor Adidas Masculina">
+            <h2>Camisa Cruzeiro I 21/22 Torcedor Adidas Masculina</h2>
+            <p>Tamnhos P M G GG EXG EXGG</p>
+            <p>R$ 299,99</p>
+            <button>Adicionar ao Carrinho</button>
+        </article>
+
+        <article>
+            <img src="https://acdn.mitiendanube.com/stores/003/320/284/products/e847e330-0305-4ef5-895c-a964f99cc45f1-c92856d34eb884aa6616873627530992-1024-1024.png" alt="Mizuno Prophecy">
+            <h2>Mizuno Prophecy</h2>
+            <p>Tamanhos do do 36 ao 44</p>
+            <p>R$ 1099,99</p>
+            <button>Adicionar ao Carrinho</button>
+        </article>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Minha Loja Online. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
